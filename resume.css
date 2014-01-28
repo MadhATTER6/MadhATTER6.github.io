@@ -92,6 +92,8 @@ li
   { margin-top: 0px;
   }
 
+  .section > a:last-child
+  { border-bottom: none !important;}
   a
   { color: inherit !important;
     border-bottom: inherit !important;
