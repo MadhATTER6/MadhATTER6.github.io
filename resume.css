@@ -65,7 +65,7 @@ div.right
 }
 
 .content
-{ margin: 5px 0px 10px 10px
+{ margin: 5px 5px 8px 5px
 }
 
 ul
@@ -79,6 +79,7 @@ li
 #footer
 { font-size: small;
   text-align: center;
+  display: none;
 }
 
 @media print
@@ -96,8 +97,9 @@ li
   }
 
   #footer
-  { position: absolute;
-    bottom: 5px;
+  { display: block;
+    position: absolute;
+    bottom: 0px;
     width: 100%;
   }
 }
