@@ -94,4 +94,10 @@ li
   { color: inherit !important;
     border-bottom: inherit !important;
   }
+
+  #footer
+  { position: absolute;
+    bottom: 5px;
+    width: 100%;
+  }
 }
