@@ -16,15 +16,15 @@ html
       br
       span (206) 669-8741
     div.section Job Objective
-    p.content An <b>Internship</b> in <b>Software Engineering</b>
+    p.content An <b>Internship</b> in <b>Software Engineering</b>, especially one involving <b>Data Analysis</b>
     div.section Skills
     ul.content
-      li Programming Languages: <b>Python</b>, <b>Javascript</b>, <b>Java</b>, <b>C</b>, <b>C#</b>
+      li Programming Languages: <b>Python</b>, <b>Javascript</b>, <b>Java</b>, <b>C#</b>, C
       li Smartphone App Development: <b>Windows Phone</b> and <b>Android</b>
-      li Full-Stack Web Development:
+      li Full-Stack <b>Web Development</b>:
       ul
         li
-          | <b>Front End</b> Programming and Design; 
+          | Front End Programming and Design; 
           | <b>Node.js</b> + Express, <b>Flask</b> (Python), PHP; 
           | <b>SQL</b>, <b>Redis</b>
       li Experience using <b>SCRUM</b> techniques for group projects
@@ -35,11 +35,15 @@ html
     ul.content
       li
         a(href="https://github.com/MadhATTER6/Party-Panda") Party-Panda
-        span.project-year (2014 - Ongoing)
+        span.project-year (2014 - ongoing)
       ul: li Pandora playlist controller with communal voting.
       li
+        a(href="https://github.com/MadhATTER6/2d-chatroom") a 2D chat-"room" with positional locality
+        span.project-year (2013 - ongoing)
+      ul: li A prject to teach myself Node.js, Express, Jade, LESS, and Redis.
+      li
         a(href="https://github.com/MadhATTER6/CodeDay-Playlist") CodeDay-Playlist
-        span.project-year (2013 - Ongoing)
+        span.project-year (2013 - ongoing)
       ul: li LAN music library with communal playlist building, intended for low-internet-bandwidth hackathons.
       li
         a(href="https://github.com/zaqthefreshman/vendttp") The StudentRND Vending Machine
@@ -53,7 +57,7 @@ html
       li
         | A Morse Code text messaging app for Android
         span.project-year (2011 - 2012)
-      li
+      li.no-print
         | A Website to organize games of 
         a(href="https://wikipedia.org/wiki/assassin_(game)") Assassin (AKA Gotcha)
         span.project-year (2008 - 2010)
@@ -108,10 +112,13 @@ html
     div.section Other Activities and Achievements
     ul.content
       li!= "Shito&#x304;-ryu&#x304; Karate (2002 - 2012)"
-      li Best Application, CodeDay Portland Fall 2012, for a peer-to-peer 3D-printing as-a-service website
-      li First place team, Math is Cool Competition, 2010
+      li
+        | Best Application, CodeDay Portland Fall 2012, for 
+        a(href="https://github.com/aaasen/Thingsmith") a peer-to-peer 3D-printing as-a-service website
+      li.no-print First place team, Math is Cool Competition, 2010
 
-    div#footer!= "A hyperlinked version of this r&eacute;sum&eacute; can be found at <b>http://madhatter6.github.io/resume</b>"
+    div#footer
+      != "A hyperlinked version of this r&eacute;sum&eacute; can be found at "
+      b http://madhatter6.github.io/resume
 
-    script(type="text/javascript").
-      window.onresize();
+    script(type="text/javascript") window.onresize();
