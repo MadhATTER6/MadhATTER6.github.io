@@ -13,6 +13,14 @@ body.restricted
 #header
 { margin-bottom: 5px;
   font-weight: bold;
+  position: relative;
+}
+
+#pdf
+{ height: 30px;
+  position: absolute;
+  top: 20;
+  left: 10;
 }
 
 #name
