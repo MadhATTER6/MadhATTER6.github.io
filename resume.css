@@ -75,10 +75,10 @@ div.right
 }
 
 ul.split > div:first-child
-{ width: 50%;
+{ width: 33%;
 }
 ul.split > div + div
-{ width: 50%;
+{ width: 33%;
 }
 
 .content
