@@ -11,7 +11,7 @@ body.restricted
 }
 
 #header
-{ margin-bottom: 5px;
+{ margin-bottom: 20px;
   font-weight: bold;
   position: relative;
 }
@@ -79,7 +79,7 @@ ul.split > div
 }
 
 .content
-{ margin: 5px 5px 14px 5px
+{ margin: 5px 5px 18px 5px
 }
 
 .project-year
@@ -89,10 +89,12 @@ ul.split > div
 
 ul
 { margin: 1px;
+  margin-bottom: 6px;
   padding-left: 30px;
 }
 li
-{ line-height: 1.4
+{ margin-bottom: 1px;
+  line-height: 1.2
 }
 
 #footer
