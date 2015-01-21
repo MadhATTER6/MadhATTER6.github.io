@@ -11,109 +11,113 @@ html
   body
     div#header.right
       a(href="resume.pdf"): img#pdf.no-print(src="PDF.png")
-      a#name(href="https://github.com/MadhATTER6") George Matter VI
+      span.name George Matter VI
       br
-      a#email(href='mailto:"George Matter VI"<george.matter.vi@gmail.com>') George.Matter.VI@gmail.com
+      span.email: a(href='mailto:"George Matter VI"<george.matter.vi@gmail.com>') George.Matter.VI@gmail.com
       br
       span (206) 669-8741
-    div.section Job Objective
-    p.content An <b>Internship</b> in <b>Software Engineering</b>, especially one involving <b>Data Analysis</b>, near Boulder, CO
-    div.section Skills
-    ul.content
-      li Programming Languages: <b>Javascript</b>, <b>Python</b>, <b>Golang</b>, <b>Java</b>, <b>C#</b>, C, Standard ML, Racket, PHP
-      li Smartphone App Development: <b>Android</b> and <b>Windows Phone</b>
-      li Full-Stack <b>Web Development</b>:
-      ul
-        li
-          | <b>Front End</b> Programming including <b>Angular.js</b>;&nbsp;
-          | <b>Node.js</b> + Express, <b>Flask</b> (Python), PHP;&nbsp;
-          | <b>SQL</b>, <b>Redis</b>, MongoDB
 
-    div.section
-      | Selected Projects
-      a.right(href="https://github.com/MadhATTER6") github.com/MadhATTER6
-    ul.content
-      li
-        | P2P Turntable.fm Clone (working title)
-        span.project-year (2014 - ongoing)
-      ul: li Turntable.fm inspired playlisting system for use in physical spaces, supporting local peer-to-peer song additions and external embedding (e.g. YouTube, SoundCloud)
-      li
-        a(href="https://github.com/MadhATTER6/Party-Panda") Party-Panda
-        span.project-year (2014 - ongoing)
-      ul: li Pandora playlist controller with communal voting.
-      li
-        a(href="https://github.com/MadhATTER6/CodeDay-Playlist") CodeDay-Playlist
-        span.project-year (2013)
-      ul: li LAN music library with communal playlist building, intended for low-internet-bandwidth hackathons.
-      li
-        a(href="https://github.com/zaqthefreshman/vendttp") The StudentRND Vending Machine
-        span.project-year (2013)
-      ul
+    section
+      div.section-title Job Objective
+      p.content An <b>Internship</b> in <b>Software Engineering</b>, especially <b>Backend</b> or <b>Dataflow</b>, near Seattle, WA
+
+    section
+      div.section-title Skills
+      ul.content
+        li Programming Languages: <b>Javascript</b>, <b>Python</b>, <b>Go</b>, <b>Java</b>, <b>OCaml</b>, C#, C, PHP
+        li Smartphone App Development: <b>Android</b> and <b>Windows Phone</b>
+        li Full-Stack <b>Web Development</b>:
+        ul
+          li
+            | <b>Front End</b> Programming including <b>Angular.js</b>;&nbsp;
+            | <b>Node.js</b>, PHP;&nbsp;
+            | <b>MongoDB</b>, <b>Redis</b>, SQL
+
+    section
+      div.section-title
+        | Selected Projects
+        a.right(href="https://github.com/MadhATTER6") github.com/MadhATTER6
+      ul.content
         li
-          | Reengineered broken machine for 
+          | P2P Turntable.fm Clone
+          span.project-year (2014 - ongoing)
+        ul: li Turntable.fm-inspired playlisting system for use in physical spaces, adding support for local peer-to-peer song additions and external embedding (e.g. from YouTube or SoundCloud).
+        li
+          a(href="https://github.com/MadhATTER6/Party-Panda") Party-Panda
+          span.project-year (2014 - ongoing)
+        ul: li Pandora playlist controller with communal voting.
+        li
+          a(href="https://github.com/zaqthefreshman/vendttp") The StudentRND Vending Machine
+          span.project-year (2013)
+        ul
+          li
+            | Reengineered broken machine for 
+            a(href="http://studentrnd.org") StudentRND
+            |  workspace. Replaced motherboard with a desktop PC <br/> and an Arduino.
+            |  Added an RFID-based login system, and a Windows Phone touchpad user-interface.
+        li
+          | A Morse Code text messaging app for Android
+          span.project-year (2011 - 2012)
+
+    section
+      div.section-title Education
+      ul.content
+        li <b>University of Washington</b>, Seattle Campus, Class of 2016
+        ul
+          li Majoring in <b>Computer Science</b>, 3.4 in-major GPA
+          li Relevant Courses
+          ul.split
+            div(style="width: 39%;")
+              li: b Grad-level Programming Languages
+              li Software Design and Implementation
+            div(style="width: 35%;")
+              li Systems Programming
+              li Data Structures and Algorithms
+            div(style="width: 26%;")
+              li Discrete Probability
+              li Continuous Math Modeling
+        li Garfield High School, Class of 2012
+        ul
+          li Programming Club, co-founder and co-president
+          li.no-print Robotics Team, co-president
+
+    section.work
+      div.section-title Work Experience:
+      div.content
+        div June 2014 - Ongoing
+        div 
+          a(href="tune.com") Tune
+          | ; Frontend Architecture Intern on MobileAppTracking platform
+          ul
+            li Building <b>developer tools</b> for company-wide frontend <b>componentization initiative</b>.
+            li Built an extensible <b>chatbot</b> for HipChat written in Go.
+            li Built a <b>unified login interface</b> for MobileAppTracking webapps.
+              ul
+                li Used to log in to client-facing products
+                li Plain JS frontend (for fast loading); Node.js backend
+                li Currently deployed in production and used by many customers
+            li Built out <b>company directory</b>, including search/filter function and profile pic cropping.
+      div.content
+        div June 2013 - January 2014
+        div
           a(href="http://studentrnd.org") StudentRND
-          |  workspace. Replaced motherboard with a desktop PC <br/> and an Arduino.
-          |  Added an RFID-based login system, and a Windows Phone touchpad user-interface.
-      li
-        | A Morse Code text messaging app for Android
-        span.project-year (2011 - 2012)
+          | ; 
+          a(href="http://codeday.org") CodeDay
+          |  Student Hackathon Series, Evangelist and Organizer
+          ul
+            li Evangelist: Portland Summer '13
+            li Organizer: Seattle Fall '13
+            li Evangelist: Portland Winter '14
+            li Volunteer: Portland Fall '14; Seattle Win '15
 
-    div.section Education
-    ul.content
-      li <b>University of Washington</b>, Seattle Campus, Class of 2016
-      ul
-        li Majoring in <b>Computer Science</b>, with plans to dual major in <b>Applied Math</b>
-        li <b>3.5 in-major GPA</b>
-        li Relevant Courses
-        ul.split
-          div(style="width: 35%;")
-            li Systems Programming
-            li Data Structures and Algorithms
-          div(style="width: 39%;")
-            li Software Design and Implementation
-            li Functional Programming Languages
-          div(style="width: 26%;")
-            li Discrete Probability
-            li Continuous Math Modeling
-      li Garfield High School, Class of 2012
-      ul
-        li Programming Club, co-founder and co-president
-        li Robotics Team, co-president
-
-    div.section Work Experience:
-    div.split.content
-      div June 2014 - Ongoing
-      div 
-        a(href="tune.com") Tune
-        | ; Frontend Architecture Intern on MobileAppTracking platform
-        ul
-          li Built an extensible chatbot for HipChat written in Golang.
-          li Built a unified login interface for MobileAppTracking products.
-            ul
-              li Used to log in to client-facing products
-              li Plain JS frontend for optimal login speed
-              li Node.JS backend
-              li currently in production beta
-          li Built out company directory, including search/filter function and profile pic cropping
-    div.split.content
-      div June 2013 - January 2014
-      div
-        a(href="http://studentrnd.org") StudentRND
-        | ; 
-        a(href="http://codeday.org") CodeDay
-        |  Student Hackathon Series, Evangelist and Organizer
-        ul
-          li Facilitator: Portland Summer 2013
-          li Organizer: Seattle Fall 2013
-          li Evangelist / Facilitator: Portland Winter 2014
-
-    div.section.no-print Other Activities and Achievements
-    ul.content.no-print
-      li!= "Shito&#x304;-ryu&#x304; Karate (2002 - 2012)"
-      li
-        | Best Application, CodeDay Portland Fall 2012, for 
-        a(href="https://github.com/aaasen/Thingsmith") a peer-to-peer 3D-printing as-a-service website
-      li.no-print First place team, Math is Cool Competition, 2010
+    section
+      div.section-title.no-print Other Activities and Achievements
+      ul.content.no-print
+        li!= "Shito&#x304;-ryu&#x304; Karate (2002 - 2012)"
+        li
+          | Best Application, CodeDay Portland Fall 2012, for 
+          a(href="https://github.com/aaasen/Thingsmith") a peer-to-peer 3D-printing as-a-service website
+        li.no-print First place team, Math is Cool Competition, 2010
 
     div#footer
       != "A hyperlinked version of this r&eacute;sum&eacute; can be found at "

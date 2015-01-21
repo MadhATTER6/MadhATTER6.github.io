@@ -1,7 +1,6 @@
 body
 { margin: 10px 40px;
   font-size: 16px;
-  height: 17px;
   font-family: "Times New Roman", serif;
 }
 
@@ -73,19 +72,11 @@ div.right
 }
 
 ul.split > div
-{ display: inline-block;
-}
-
-section {
-  margin-bottom: 24px;
+{ width: inherit;
 }
 
 .content
-{ margin: 5px 5px 16px 5px
-}
-
-p.content, div.content
-{ margin-left: 16px;
+{ margin: 5px 5px 18px 5px
 }
 
 .project-year
@@ -95,11 +86,11 @@ p.content, div.content
 
 ul
 { margin: 1px;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   padding-left: 30px;
 }
 li
-{ margin-bottom: 4px;
+{ margin-bottom: 1px;
   line-height: 1.2
 }
 
