@@ -51,17 +51,23 @@ a[href]:hover
 div.right
 { text-align: right;
 }
+.text-centered
+{ text-align: center;
+}
+
 .section-title > a:last-child
 { float: right;
   padding-top: 2px;
   background-color: white;
 }
-
 .section-title
 { border-bottom: 1px solid darkgrey;
   font-weight: bold;
 }
 
+.work .content p
+{ margin: 0 0 8px;
+}
 .work .content > div:first-child
 { width: 28%;
   display: inline-block;
@@ -81,11 +87,12 @@ section {
 }
 
 .content
-{ margin: 5px 5px 16px 5px
+{ margin: 16px 5px 16px 5px
 }
 
 p.content, div.content
 { margin-left: 16px;
+  display: block;
 }
 
 .project-year

@@ -13,39 +13,120 @@ html
       a(href="resume.pdf"): img#pdf.no-print(src="PDF.png")
       span.name George Matter VI
       br
-      span.email: a(href='mailto:"George Matter VI"<george.matter.vi@gmail.com>') George.Matter.VI@gmail.com
+      span.email: a(href='mailto:"George Matter"<george.m@tter.vi>') george.m@tter.vi
       br
       span (206) 669-8741
 
     section
       div.section-title Job Objective
-      p.content An <b>Internship</b> in <b>Software Engineering</b>, especially <b>Backend</b> or <b>DevOps</b>, near Seattle, WA
+      p.content
+        | I am a <b>Software Engineer</b> looking to pivot into <b>Information Security</b>.
+        | I am looking for an <b>Internship</b> in information security, or other opportunities to develop security sills, preferably with mentorship.
+        | I have experience working for <b>Educational Non-Profit Organizations</b>, and have developed software for both greenfield and legacy software systems.
+
+    section.work
+      div.section-title Work Experience
+      div.content
+        div.text-center
+          p
+            b Volunteer / Mentor
+            br
+            | January 2015 - Ongoing
+          p
+            b Evangelist / Organizer
+            br
+            | June 2013 - Sept 2014
+        div
+          b: a(href="https://codeday.org") CodeDay
+          p
+            | CodeDay is a nationwide beginner-oriented hackathon.
+            | I have been involved with CodeDay since 2012, in both managerial and operational capacities.
+            | I have hosted CodeDay events in Seattle and Portland, and assist with current events as a mentor. 
+            b I have experience guiding students in their own self-directed learning endevors, and in fostering excitement and self-confidence about computer technology.
+      div.content
+        div.text-center
+          p
+            b Webmaster
+            br
+            | July 2014 - Ongoing
+          p
+            b Member / Volunteer
+            br
+            | April 2011 - Ongoing
+        div
+          b: a(href="https://theveraproject.org") The Vera Project
+          p The Vera Project is a <b>non-profit</b>, <b>all-ages</b> music and arts education space in Seattle. Vera hosts public art shows, music performances, and <b>educational workshops</b>, and maintains music and art studios for its members. I am a voting member of the organization, regularly work shows, and manage the network hardware and technical aspects of the <b>Wordpress</b> website.
+      div.content
+        div.text-center
+          p
+            b Software Engineer
+            br
+            | July 2016 - March 2017
+          p
+            b Software Engineering Intern
+            br
+            | June 2015 - August 2015
+        div
+          b: a(href="https://socrata.com") Socrata
+          ul
+            li Provisioned <b>AWS infrastructure</b> for 3rd-party appliance.
+            li Patched various systems to integrate with 3rd-party authentication service.
+            li Patched core back-end data storage systems.
+            li Integrated existing systems with Google Bigquery for <b>terabyte-scale datasets</b>.
+      div.content
+        div.text-center 
+          p
+            b Junior Software Engineer
+            br
+            | Sept 2014 - March 2015
+          p
+            b Intern (Architecture Team)
+            br
+            | June 2015 - Sept 2014
+        div 
+          b: a(href="https://tune.com") Tune
+          ul
+            li <b>Designed and built dev tools</b> for organization-wide transisition to ReactJS.
+            li Built a utility bot for the engineering team's chat system.
+            li Built frontend for new <b>authentication microservice</b>.
 
     section
       div.section-title Skills
       ul.content
-        li Programming Languages: <b>Javascript</b>, <b>Python</b>, <b>Go</b>, <b>Java</b>, <b>OCaml</b>, C#, C, PHP
-        li Smartphone App Development: <b>Android</b> and <b>Windows Phone</b>
-        li Full-Stack <b>Web Development</b>:
-        ul
-          li
-            | <b>Front End</b> Programming including <b>Angular.js</b>;&nbsp;
-            | <b>Node.js</b>, PHP;&nbsp;
-            | <b>MongoDB</b>, <b>Redis</b>, SQL
+        li Programming Languages: <b>Go</b>, <b>Javascript</b>, <b>Python</b>, <b>Bash</b>, <b>Java</b>, <b>Scala</b>, C#, C, Ruby, PHP
+        li Database Systems: <b>Postgres</b>, <b>Redis</b>, MongoDB, MySQL
+        li Service Deployment: <b>Amazon Web Services</b>, <b>Docker</b>, Consul, ZooKeeper 
+        li Linux Server Management, perticularly <b>Debian</b> and Debian-based distributions
+        li Smartphone App Development: <b>Android</b> and Windows Phone
 
     section
+      div.section-title Education
+      div.content
+        p <b>Computer Science</b> at <b>University of Washington</b>
+        | Selected courses:
+        ul.split
+          div(style="width: 39%;")
+            li: b Grad-level Programming Languages
+            li Compiler Construction
+            li Systems Programming
+          div(style="width: 35%;")
+            li: b Computer Security
+            li Machine Learning
+            li Computer Networking
+          div(style="width: 26%;")
+            li: b Cryptography
+            li Algroithm Analysis
+            li Complexity Theory
+
+    section.no-print
       div.section-title
         | Selected Projects
-        a.right(href="https://github.com/MadhATTER6") github.com/MadhATTER6
+        a.right(href="https://github.com/gmvi") github.com/gmvi
       ul.content
         li
           | P2P Turntable.fm Clone
           span.project-year (2014 - ongoing)
         ul: li Turntable.fm-inspired playlisting system for use in physical spaces, adding support for local peer-to-peer song additions and external embedding (e.g. from YouTube or SoundCloud).
-        li
-          a(href="https://github.com/MadhATTER6/Party-Panda") Party-Panda
-          span.project-year (2014 - ongoing)
-        ul: li Pandora playlist controller with communal voting.
         li
           a(href="https://github.com/zaqthefreshman/vendttp") The StudentRND Vending Machine
           span.project-year (2013)
@@ -55,72 +136,9 @@ html
             a(href="http://studentrnd.org") StudentRND
             |  workspace. Replaced motherboard with a desktop PC <br/> and an Arduino.
             |  Added an RFID-based login system, and a Windows Phone touchpad user-interface.
-        li
-          | A Morse Code text messaging app for Android
-          span.project-year (2011 - 2012)
-
-    section
-      div.section-title Education
-      ul.content
-        li <b>University of Washington</b>, Seattle Campus, Class of 2016
-        ul
-          li Majoring in <b>Computer Science</b>, 3.4 in-major GPA
-          li Relevant Courses
-          ul.split
-            div(style="width: 39%;")
-              li: b Grad-level Programming Languages
-              li Software Design and Implementation
-            div(style="width: 35%;")
-              li Systems Programming
-              li Data Structures and Algorithms
-            div(style="width: 26%;")
-              li Discrete Probability
-              li Continuous Math Modeling
-        li Garfield High School, Class of 2012
-        ul
-          li Programming Club, co-founder and co-president
-          li.no-print Robotics Team, co-president
-
-    section.work
-      div.section-title Work Experience:
-      div.content
-        div June 2014 - Ongoing
-        div 
-          a(href="tune.com") Tune
-          | ; Frontend Architecture Intern on MobileAppTracking platform
-          ul
-            li Building <b>developer tools</b> for company-wide frontend <b>componentization initiative</b>.
-            li Built an extensible <b>chatbot</b> for HipChat written in Go.
-            li Built a <b>unified login interface</b> for MobileAppTracking webapps.
-              ul
-                li Used to log in to client-facing products
-                li Plain JS frontend (for fast loading); Node.js backend
-                li Currently deployed in production and used by many customers
-            li Built out <b>company directory</b>, including search/filter function and profile pic cropping.
-      div.content
-        div June 2013 - January 2014
-        div
-          a(href="http://studentrnd.org") StudentRND
-          | ; 
-          a(href="http://codeday.org") CodeDay
-          |  Student Hackathon Series, Evangelist and Organizer
-          ul
-            li Evangelist: Portland Summer '13
-            li Organizer: Seattle Fall '13
-            li Evangelist: Portland Winter '14
-            li Volunteer: Portland Fall '14; Seattle Win '15
-
-    section
-      div.section-title.no-print Other Activities and Achievements
-      ul.content.no-print
-        li!= "Shito&#x304;-ryu&#x304; Karate (2002 - 2012)"
-        li
-          | Best Application, CodeDay Portland Fall 2012, for 
-          a(href="https://github.com/aaasen/Thingsmith") a peer-to-peer 3D-printing as-a-service website
-        li.no-print First place team, Math is Cool Competition, 2010
 
     div#footer
       != "A hyperlinked version of this r&eacute;sum&eacute; can be found at "
-      b http://madhatter6.github.io/resume
+      b http://gmvi.github.io/resume
 
     script(type="text/javascript") window.onresize();
